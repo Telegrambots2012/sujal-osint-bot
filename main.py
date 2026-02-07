@@ -12,7 +12,7 @@ import bomber
 import imei
 
 # ----------------------- FORCE SUB FIX -----------------------
-FORCE_CHANNEL = -1003318955119   # <-- YOUR PRIVATE CHANNEL CHAT ID
+FORCE_CHANNEL = -1003863979169   # <-- YOUR PRIVATE CHANNEL CHAT ID
 
 def is_subscribed(user_id):
     try:
@@ -23,7 +23,7 @@ def is_subscribed(user_id):
 
 
 # ----------------------- CONFIG -----------------------
-TOKEN = "8303906188:AAG1KrqFPpiOVSJzNNs18TsIsDHTXrS8gM4"
+TOKEN = "8215718589:AAF2c8idkTgeyqkllLacIj1tmWdcP1F_gck"
 bot = telebot.TeleBot(TOKEN, parse_mode="Markdown")
 
 app = Flask("render_web")
@@ -87,7 +87,7 @@ def pretty_format(data, indent=2):
 # ----------------------- START COMMAND -----------------------
 import mongo  # mongo.py jisme add_user & broadcast_message hai
 
-OWNER_ID = 8535060154  # <-- yaha apna Telegram ID daalo
+OWNER_ID = 7322786811  # <-- yaha apna Telegram ID daalo
 
 # ---------- /start & /help ---------- (tumhara original code exactly)
 @bot.message_handler(commands=['start', 'help'])
@@ -103,7 +103,7 @@ def start(msg):
         kb.add(
             telebot.types.InlineKeyboardButton(
                 "💥 Join Our Channel 💥",
-                url="https://t.me/+2q1EoC5BVyM2MjI1"
+                url="https://t.me/+4ijGP1Oxgqw3ZmM1"
             )
         )
 
